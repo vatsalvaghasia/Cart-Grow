@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Project</title>
+	<link href="https://fonts.googleapis.com/css2?family=Cantarell:wght@400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+	<script src="js/script.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+	<button onclick="topFunction()" id="topmyBtn" title="Go to top">Top</button>
+<!-- TOP NAVBAR -->
+<header>
+<div class="top-navbar">
+	<div class="top-navbar-container">
+		<div class="text">WELCOME TO OUR ORGANIC STORE WEBSITE!</div>
+		<div class="log-box">LOGIN</div>
+		<div class="socials-box">
+			<ul class="socials-list">
+				<li class="social-item"><a class="sub-item">Fb</a></li>
+				<li class="social-item"><a class="sub-item">In</a></li>
+				<li class="social-item"><a class="sub-item">tw</a></li>
+				<li class="social-item"><a class="sub-item">Be</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="full-cont">
+<div class="container-fullhor">
+		<div class="bigheader">All Posts</div>
+		<div class="breadcrumbs">
+		<a class="breadcrumbs_item home" href="#">Home</a>
+		<span class="breadcrumbs_slash">/</span>
+		<span class="breadcrumbs_item current">All Posts</span>
+		</div>
+</div>
+</div>
+</header>
+<div class="container">
+	<div class = "row">
+	<div class="all-posts border-right">
+		<div class = "post-1">
+		<img class="img-box" src="images/post.jpg">
+		<h3 class="widgetx-title">Why Farm Organically?</h3>
+		<p class="post-text">
+		<span>September 22,2015</span><br><br>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots1">...</span><span id="more1">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span><br><br><br>
+		<a class= "mybtn" onclick="myFunction1()" id="myBtn1">Read more</a>
+		</p>
+		</div>
+		<div class = "post-1">
+		<img class="img-box"src="images/post.jpg">
+		<h3 class="widgetx-title">Why Farm Organically?</h3>
+		<p class="post-text">
+		<span>September 22,2015</span><br><br>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots2">...</span><span id="more2">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span><br><br><br>
+		<a class= "mybtn" onclick="myFunction2()" id="myBtn2">Read more</a>
+		</p>
+		</div>
+		<div class = "post-1">
+		<img class="img-box"src="images/post.jpg">
+		<h3 class="widgetx-title">Why Farm Organically?</h3>
+		<p class="post-text">
+		<span>September 22,2015</span><br><br>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots3">...</span><span id="more3">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span><br><br><br>
+		<a class= "mybtn" onclick="myFunction3()" id="myBtn3">Read more</a>
+		</p>
+		</div>
+
+	</div>
+		
+<!--RIGHT SIDEBAR -->
+	<div class="right-sidebar">
+ <!-- ITEM 1 -->
+		<div class="widget-area">
+			<h3 class="widget-title">CATEGORIES</h3>
+			<ul>
+				<li><a href="#">Masonry (2 columns)</a>
+				</li>
+				<li><a href="#">Masonry (3 columns)</a>
+				</li>
+				<li><a href="#">Portfolio (2 columns)</a>
+				</li>
+				<li><a href="">Portfolio (3 columns)</a>
+				</li>
+				<li><a href="">Post Formats</a>
+				</li>
+			</ul>
+		</div>
+		<div class="widget-area2">
+			<h3 class="widget-title">CATEGORIES</h3>
+			<select name="cat" id="cat" class="postform">
+				<option value="-1">Select Category</option>
+				<option class="level-0" value="162">Masonry (2 columns)</option>
+				<option class="level-0" value="163">Masonry (3 columns)</option>
+				<option class="level-0" value="169">Portfolio (2 columns)</option>
+				<option class="level-0" value="170">Portfolio (3 columns)</option>
+				<option class="level-0" value="165">Post Formats</option>
+			</select>
+		</div>
+		<div class="widget-area3">
+			<h3 class="widget-title">ARCHIVES</h3>
+			<ul>
+				<li><a href="#">November 2015</a>
+				</li>
+				<li><a href="#">September 2015</a>
+				</li>
+				<li><a href="#">August 2015</a>
+				</li>
+				<li><a href="#">July 2015</a>
+				</li>
+				<li><a href="">June 2015</a>
+				</li>
+				<li><a href="">May 2015</a>
+				</li>
+			</ul>
+		</div>
+	</div> 
+</div>
+</div>
+
+<hr>
+
+<div class="four-seg-container">
+	<div class="row">
+		<div class="seg-1">
+			<h3 class="title">CONNECT WITH US</h3>
+			<p>Nam tincidunt faucibus antec blandit tortor dignissim non lorem ipsum dolorem sit amet aute irure dolor in reprehenderit.</p>
+		</div>
+				<div class="seg-2">
+			<h3 class="title">RECENT POSTS</h3>
+			<p class="recent-part1"><img src="images/recent1.jpg"><span>GMOs: Your Right To Know</span></p>
+			<p  class="recent-part2"><img src="images/recent2.jpg"><span>Healthy Food Guide</span></p>
+		</div>
+		<div class="seg-3">
+			<h3 class="title">TAGS</h3>
+			<p>
+			<a href="#" class="tag-btns">Family</a>
+			<a href="#" class="tag-btns">Farming</a>
+			<a href="#" class="tag-btns">Food</a>
+			<a href="#" class="tag-btns">Gluten</a>
+			<a href="#" class="tag-btns">Grocery</a>
+			<a href="#" class="tag-btns">Healthy</a>
+			<a href="#" class="tag-btns">Lifestyle</a>
+			<a href="#" class="tag-btns">Organic</a>
+			<a href="#" class="tag-btns">Post Format</a>
+			</p>
+		</div>
+
+		<div class="seg-4">
+			<h3 class="title">BLOG</h3>
+			<p>
+			<a href="#">GMOs: Your Right To Know</a><br>
+			<a href="#">Healthy Food Guide</a><br>
+			<a href="#">Why Farm Organically?</a><br>
+			<a href="#"><a href="#">What’s On The Plate?</a><br>
+			<a href="#">Gluten-Free Products</a><br>
+			<a href="#">In Harmony With Nature</a><br>
+			</p>
+		</div>
+	</div>
+</div>
+
+<hr>
+
+<footer>
+
+	<center>Vimlu &copy; 2020 All Rights Reserved. Terms of Use and Privacy Policy</center>
+	<center><span class="foot-head">JOIN TO ORGANIC STORE FARM</span></center>
+</footer>
+
+<script type="text/javascript">
+	var mybutton = document.getElementById("topmyBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+</body>
+</html>
