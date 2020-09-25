@@ -5,11 +5,11 @@
 		flex-direction: column;
 	}
 	.all-posts{
-		width:400px;
+		width:411px;
 	}
 
 	.top-navbar-container{
-		width:400px;
+		width:411px;
 		text-align: center;
 	}
 	.top-navbar>div{
@@ -22,7 +22,7 @@
 
 
 	.mid-navbar{
-		width:400px;
+		width:411px;
 	}
 	.navbar-brand img{
 	margin: 60px 0px;
@@ -35,7 +35,7 @@
 
 
 	.container-fullhor{
-		width:400px;
+		width:411px;
 		flex-direction: column;
 	}
 	.bigheader{
@@ -54,7 +54,7 @@
 
 
 	.container{
-		width:400px;
+		width:411px;
 	}
 	.widgetx-title{
 		font-size: 30px;
@@ -87,12 +87,12 @@
 
 	.select{
 		font-size:1.2em;
-		width:400px;
+		width:411px;
 	}
 
 
 	.four-seg-container{
-		width:400px;
+		width:411px;
 	}
 	.four-seg-container p{
 		padding:0px 25px;
@@ -132,7 +132,7 @@
 
 
 	hr{
-		width:400px;
+		width:411px;
 	}
 
 }
