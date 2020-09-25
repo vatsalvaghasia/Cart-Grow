@@ -14,7 +14,7 @@ hr{
 /* TOP NAVBAR*/
 .top-navbar{
 	width:100%;
-
+	background-color:  #F2F5F8;
 	color:#8C8C8C;
 }
 .top-navbar-container{
@@ -41,10 +41,7 @@ hr{
 	margin-left: auto;
 	font-size: 0.714em;
 }
-.social-item{
-	width:32px;
-	height:32px;
-}
+
 .text{
 	font-weight: 200;
 	font-family: 'Cantarell',sans-serif;
@@ -57,7 +54,6 @@ hr{
 .container{
 	width: 1000px;
 	background-color: #fff;
-
 	margin: 0 auto;
 	display: flex;
 	padding-top:50px;
@@ -151,7 +147,7 @@ select{
     background: url(images/arrow-down.png) no-repeat 92% center #fff;
 	width:100%;
 	padding: 0.65em 1.1em;
-    font-size: 0.8;
+    font-size: 0.8em;
     font-weight: 400;
     color: #8C8C8C;
     background-color: #F2F5F8;
@@ -185,6 +181,7 @@ option {
 
 .full-cont{
 	width:100%;
+	background-color: #F0F0F0;
 	margin:0 auto;
 
 }
@@ -238,16 +235,8 @@ option {
 	width:100%;
 }
 
-.seg-1{
-	width:25%;
-}
-.seg-2{
-	width:25%;
-}
-.seg-3{
-	width:25%;
-}
-.seg-4{
+.seg-1, .seg-2, .seg-3, .seg-4{
+	float: left;
 	width:25%;
 }
 .four-seg-container p{
@@ -289,6 +278,9 @@ option {
 .seg-4 a{
 	margin:5px 0px;
 }
+a:hover{
+ 		background-color: #3F2803 !important;
+ 	}
 
 /* FOOTER */
 .foot-head{
@@ -339,11 +331,12 @@ footer > center{
 		width: 100%;	
 	}
 	.all-posts{
-				justify-content: center;
+		justify-content: center;
 		width:80%;
 		margin:0 auto;
 	}
 	.widget-area-row{
+		justify-content: center !important;
 		width:100%;
 		display:flex;
 		flex-direction: row;
@@ -356,11 +349,73 @@ footer > center{
 		border-top: 1px solid #dddddd;
 	}
 	.widget-area .widget-title{
-		margin-top: 20px;
+		margin-top: 25px;
 	}
 	select{
 		width:60%;
 	}
+
+	/*NAVBAR TEXT*/
+	.text{
+		font-size: 1.15em;
+	}
+	.bigheader{
+		font-size: 4.25em;
+	}
+	/*POST TEXT*/
+	.widgetx-title{
+		font-size: 60px; 
+	}
+	.post-text{
+		font-size: 25px
+	}
+
+
+
+	/*RIGHT SIDEBAR*/
+	.widget-title{
+		font-size: 1.6em;
+	}
+	ul > li{
+		font-size: 25px;
+	}
+	select{
+		font-size: 1.5em;
+		width:85%;
+		margin-left: 10px;
+	}
+
+	/*FOUR SEG CONTAINER */
+	.four-seg-container{
+		justify-content: center;
+	}
+	.row1{
+	display: inline;
+	justify-content: center;
+	width:100%;
+}
+	.seg-1, .seg-2, .seg-3, .seg-4{
+	width:50%;
+}
+	.four-seg-container p{
+		margin-left: 15px;
+		padding: 0px 25px;
+		font-size:24px;
+		line-height:1.5;
+	}
+	.title{
+		font-size: 1.8em;
+		margin-left: 25px;
+	}
+	.tag-btns{
+ 	background-color: #F2F5F8;
+ 	font-size: 24px;
+ 	padding:8px 15px;
+ 	border-radius: 5px;
+ 	}
+ 	a:hover{
+ 		background-color: #3F2803 !important;
+ 	}
 
 
 }
