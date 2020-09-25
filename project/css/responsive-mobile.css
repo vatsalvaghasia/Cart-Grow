@@ -1,0 +1,138 @@
+@media(max-width: 469px){
+
+
+	.row{
+		flex-direction: column;
+	}
+	.all-posts{
+		width:400px;
+	}
+
+	.top-navbar-container{
+		width:400px;
+		text-align: center;
+	}
+	.top-navbar>div{
+		display: block;
+	}
+	.log-box, .socials-box,.mid-nav-list{
+		display:none;
+	}
+
+
+
+	.mid-navbar{
+		width:400px;
+	}
+	.navbar-brand img{
+	margin: 60px 0px;
+	float: left;
+	max-height: 140px;
+    width: auto;
+	}
+
+
+
+
+	.container-fullhor{
+		width:400px;
+		flex-direction: column;
+	}
+	.bigheader{
+		text-align: center;
+		font-size:30px;
+	}
+	.container-fullhor .breadcrumbs {
+    padding: 3.5em 0 1em 0.4em;
+    margin-left: 0;
+    text-align: center;
+    font-size:14px;
+	}
+
+
+
+
+
+	.container{
+		width:400px;
+	}
+	.widgetx-title{
+		font-size: 30px;
+	}
+	.img-box{
+		padding:0px;
+	}
+	.post-text{
+		font-size:1.2em;
+		margin-bottom: 60px;
+	}
+	.right-sidebar{
+		width:400px;
+	}
+
+
+
+	.widget-area-row{
+		flex-direction: column;
+	}
+	.widget-area{
+		width:100%;
+	}
+	.widget-title{
+		font-size:1.4em;
+	}
+	.widget-area>ul >li{
+		font-size: 1.2em;
+	}
+
+	.select{
+		font-size:1.2em;
+		width:400px;
+	}
+
+
+	.four-seg-container{
+		width:400px;
+	}
+	.four-seg-container p{
+		padding:0px 25px;
+	}
+	.row1{
+		flex-direction:column;
+	}
+	.seg-1,.seg-2,.seg-3,.seg-4{
+		width:100%;
+	}
+
+	.row1 .title{
+		font-size: 1.4em;
+		text-align: center;
+	}
+	.seg-4 p{
+		text-align: center;
+	}
+
+
+
+	.foot-head{
+		font-size: 1.6em;
+		padding:80px 0px;
+	}
+	.border-left{
+		border-left:none;
+		border-top: 1px solid #dddddd;
+	}
+
+
+
+	#topmyBtn{
+		font-size:1.4em;
+		width:20%;
+	}
+
+
+	hr{
+		width:400px;
+	}
+
+}
