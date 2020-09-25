@@ -292,7 +292,7 @@ option {
 .seg-4 a{
 	margin:5px 0px;
 }
-a:hover{
+a.mybtn:hover{
  		background-color: #3F2803 !important;
  	}
 
@@ -334,7 +334,7 @@ footer > center{
 
 
 
-@media(max-width:767px){
+@media(max-width:468px){
 	img{
 		width:100%;
 	}
