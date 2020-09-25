@@ -14,11 +14,12 @@ hr{
 /* TOP NAVBAR*/
 .top-navbar{
 	width:100%;
-	background-color: #F2F5F8;
+
 	color:#8C8C8C;
 }
 .top-navbar-container{
 	width:1000px;
+	background-color: #F2F5F8;
 	margin: 0 auto;
 	padding:15px;
 }
@@ -56,7 +57,7 @@ hr{
 .container{
 	width: 1000px;
 	background-color: #fff;
-	height: 100%;
+
 	margin: 0 auto;
 	display: flex;
 	padding-top:50px;
@@ -65,21 +66,18 @@ hr{
 	box-sizing: border-box;
 }
 img{
-	width:660px;
-	height: 377px;
+	width:100%;
 }
 .box1{
 	margin: 0 auto;
 }
-.right-sidebar{
-	width:300px;
-}
+
 .img-box{
 	padding:15px;
 }
 .post-text{
 	padding:0px 15px;
-	width: 70%;
+	width: 100%;
 }
 h3{
 	padding:0px 15px;
@@ -93,6 +91,9 @@ h3{
 	float:left;
 
 }
+
+
+/*MASTER CONTAINER*/
 
 /* RIGHT SIDEBAR */
 
@@ -115,7 +116,7 @@ h3{
 	padding:10px;
 }
 .widget-area .widget-title {	
-    margin-top: 0;
+    margin-top: 0px;
     margin-bottom: 1.2em;
     font-family: 'Cantarell',sans-serif;
 }
@@ -135,8 +136,8 @@ a{
 a:hover{
 	cursor: pointer;
 }
-.border-right{
-	border-right: 1px solid #dddddd;
+.border-left{
+	border-left: 1px solid #dddddd;
 
 }
 .widget-area2{
@@ -185,10 +186,11 @@ option {
 .full-cont{
 	width:100%;
 	margin:0 auto;
-	background-color: #F0F0F0;
+
 }
 .container-fullhor{
 	width:1000px;
+	background-color: #F0F0F0;
   	padding-right: 15px;
   	padding-left: 15px;
   	margin-right: auto;
@@ -231,7 +233,8 @@ option {
 	margin-bottom: 1.2em;
     font-family: 'Cantarell',sans-serif;
 }
-.row{
+.row1{
+	display: flex;
 	width:100%;
 }
 
@@ -319,4 +322,45 @@ footer > center{
 
 #topmyBtn:hover {
   background-color: #3F2803;
+}
+
+
+
+
+
+@media(max-width:767px){
+	img{
+		width:100%;
+	}
+	.row{
+		flex-direction: column;
+	}
+	.right-sidebar{
+		width: 100%;	
+	}
+	.all-posts{
+				justify-content: center;
+		width:80%;
+		margin:0 auto;
+	}
+	.widget-area-row{
+		width:100%;
+		display:flex;
+		flex-direction: row;
+	}
+	.widget-area, .widget-area2, .widget-area3{
+		width:33%;
+	}
+	.widget-area{
+		margin-top: 50px;
+		border-top: 1px solid #dddddd;
+	}
+	.widget-area .widget-title{
+		margin-top: 20px;
+	}
+	select{
+		width:60%;
+	}
+
+
 }
